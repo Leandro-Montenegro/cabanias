@@ -19,11 +19,12 @@ public abstract class Cabania {
         this.nombre = nombreCabania;
     }
     
+    // Van afuera por que no son fijos, a diferencia de setNombre.
     public void setPrecioPorNoche(double precio) { this.precioPorNoche = precio; }
     public void setCapacidadMaxima(int capacidad) { this.capacidadMaxima = capacidad; }
     
     public String getDescripcionCompleta() {
-        StringBuilder descripcion = new StringBuilder();
+        StringBuilder descripcion = new StringBuilder(); // StringBuilder para concatenación eficiente
         descripcion.append(nombre.toUpperCase()).append("\n");
         descripcion.append("Precio: $").append(String.format("%.2f", precioPorNoche)).append("/noche\n");
         descripcion.append("Capacidad: ").append(capacidadMaxima).append(" personas\n");

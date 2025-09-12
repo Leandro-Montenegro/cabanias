@@ -143,6 +143,9 @@ public class SistemaReservas {
             }
             
             double precioTotal = cabaniaSeleccionada.calcularPrecioTotal(noches);
+
+            /*System.currentTimeMillis() Devuelve el tiempo actual en milisegundos
+            *desde el 1 de enero de 1970 (Epoch). Es un número muy grande que cambia cada milisegundo*/
             
             String codigoReserva = "RES" + System.currentTimeMillis() % 10000;
             String detalleReserva = nombreCliente + " - " + cabaniaSeleccionada.getTipoCabania() + 

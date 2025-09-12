@@ -27,7 +27,7 @@ public class Estandar extends Cabania {
     
     @Override
     public double calcularPrecioFinal(double precioBase) {
-        return precioBase; // Sin descuentos, precio base
+        return precioBase; 
     }
     
     @Override
