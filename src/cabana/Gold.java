@@ -10,11 +10,11 @@ public class Gold extends Cabania {
         return "GOLD - Cabaña de Lujo Supremo".toUpperCase(); 
     }
 
-        /*Servicios básicos incluidos en Gold */
+     /*Servicios básicos incluidos en Gold */
      
     @Override
     public String getServicios() {
-        StringBuilder servicios = new StringBuilder(); // StringBuilder para concatenación eficiente
+        StringBuilder servicios = new StringBuilder(); 
         servicios.append("SERVICIOS GOLD INCLUIDOS:\n");
         servicios.append("Servicio de mayordomo 24/7\n");
         servicios.append("Spa privado con jacuzzi\n");

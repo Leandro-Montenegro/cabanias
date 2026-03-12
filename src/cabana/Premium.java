@@ -15,7 +15,7 @@ public class Premium extends Cabania {
 
     @Override
     public String getServicios() {
-        StringBuilder servicios = new StringBuilder();  // StringBuilder para concatenación eficiente
+        StringBuilder servicios = new StringBuilder();  
         servicios.append("SERVICIOS PREMIUM INCLUIDOS:\n");
         servicios.append("Desayuno buffet incluido\n");
         servicios.append("Acceso al gimnasio\n");

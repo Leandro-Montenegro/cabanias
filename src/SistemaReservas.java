@@ -1,22 +1,19 @@
 import cabana.*;
-import storage.*;
-
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
+import storage.*;
 
-import java.util.InputMismatchException;
 
 /* Permite a los clientes ver los tipos de cabañas,
    realizar reservas y gestionar las reservas existentes.*/
    
 public class SistemaReservas {
-    // Escáner para la entrada del usuario en toda la clase
+
     private static Scanner scanner = new Scanner(System.in);
     
     private static ArrayList<Cabania> tiposCabanias = new ArrayList<>();
-    
-    // Instancia de la interfaz de almacenamiento de reservas
     private static ReservaAlmacenamiento reservaAlmacenamiento = new AlmacenamientoEnMemoria();
 
     public static void main(String[] args) {

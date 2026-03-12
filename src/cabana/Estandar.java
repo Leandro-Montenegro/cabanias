@@ -10,7 +10,7 @@ public class Estandar extends Cabania {
         return "ESTÁNDAR - Cabaña Básica y Cómoda".toUpperCase(); 
     }
     
-       /*Servicios básicos incluidos en Estandar */
+    /*Servicios básicos incluidos en Estandar */
 
     @Override
     public String getServicios() {

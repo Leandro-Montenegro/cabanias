@@ -2,7 +2,7 @@ package storage;
 import java.util.ArrayList;
 import java.util.List;
 
-//implements → se usa para cumplir el contrato de una interfaz (implementación de métodos).
+//implements -> se usa para cumplir el contrato de una interfaz (implementación de métodos).
 public class AlmacenamientoEnMemoria implements ReservaAlmacenamiento {
     private List<String> reservas;
 
