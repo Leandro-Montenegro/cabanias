@@ -4,6 +4,7 @@ import Cabanas from './pages/Cabanas'
 import Reservas from './pages/Reservas'
 import './styles.css'
 
+
 function Navbar() {
   return (
     <header>
