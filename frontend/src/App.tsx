@@ -14,7 +14,7 @@ function Navbar() {
           <NavLink to="/cabanas" className={({isActive}) => isActive ? 'btn primary' : 'btn'}>Cabañas</NavLink>
           <NavLink to="/reservas" className={({isActive}) => isActive ? 'btn primary' : 'btn'}>Reservas</NavLink>
           <div className="spacer" />
-          <a className="btn" href="https://react.dev" target="_blank" rel="noreferrer">Ayuda</a>
+
         </div>
       </div>
     </header>
