@@ -47,17 +47,27 @@ backend/ → lógica del servidor y procesamiento de datos
 
 frontend/ → interfaz web con la que interactúa el usuario
 
-⚙️ Uso
+⚙️ Instalación y ejecución
 
-Clonar el repositorio
+1️⃣ Clonar el repositorio
 
 git clone https://github.com/Leandro-Montenegro/cabanias
 
-Entrar a la carpeta del proyecto
+2️⃣ Entrar a la carpeta del proyecto
 
 cd cabanias
 
-Ejecutar el backend en Java y abrir el frontend en el navegador.
+3️⃣ Instalar las dependencias del frontend
+
+npm install
+
+4️⃣ Ejecutar el servidor de desarrollo
+
+npm run dev
+
+5️⃣ Abrir el navegador en la dirección que indique la terminal, por ejemplo:
+
+http://localhost:5173
 
 📋 Funcionalidad
 
